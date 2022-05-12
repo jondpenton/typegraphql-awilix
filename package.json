@@ -1,0 +1,25 @@
+{
+  "name": "typegraphql-awilix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "apollo-server": "^3.7.0",
+    "awilix": "^7.0.3",
+    "graphql": "^15.3.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "apollo-server-plugin-base": "^3.5.3",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "run-s build start",
+    "start": "node --inspect-brk dist/index.js"
+  }
+}
