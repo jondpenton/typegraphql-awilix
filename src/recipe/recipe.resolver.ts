@@ -1,3 +1,4 @@
+import * as Awilix from 'awilix'
 import { Arg, Ctx, Mutation, Query, Resolver } from 'type-graphql'
 import { Logger } from '../logger'
 import { Cradle } from '../types'
@@ -10,6 +11,11 @@ const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 // this resolver will be recreated for each request (scoped)
 @Resolver(() => Recipe)
 export class RecipeResolver {
+  // not needed if registered in container with `.classic()`
+  static readonly [Awilix.RESOLVER] = {
+    injectionMode: Awilix.InjectionMode.CLASSIC,
+  }
+
   constructor(
     private readonly recipeService: RecipeService,
     private readonly logger: Logger,

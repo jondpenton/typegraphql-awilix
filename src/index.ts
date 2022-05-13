@@ -25,9 +25,7 @@ async function main() {
         // Alternatively, you could register the resolvers in the container
         // (like `.register({ RecipeResolver: Awilix.asClass(RecipeResolver).classic() })`)
         // and do `context.container.resolve(someClass.name)`
-        return context.container.build(someClass, {
-          injectionMode: `CLASSIC`,
-        })
+        return context.container.build(someClass)
       },
     }),
   })
