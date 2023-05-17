@@ -1,9 +1,7 @@
 {
   "name": "typegraphql-awilix",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
-  "packageManager": "yarn@3.2.0",
   "dependencies": {
     "apollo-server": "^3.7.0",
     "awilix": "^7.0.3",
