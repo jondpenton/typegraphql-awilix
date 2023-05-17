@@ -2,6 +2,13 @@
   "name": "typegraphql-awilix",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "run-s build start",
+    "lint": "prettier --cache --check --ignore-unknown .",
+    "lint-fix": "prettier --cache --ignore-unknown --write .",
+    "start": "node --inspect-brk dist/index.js"
+  },
   "dependencies": {
     "apollo-server": "^3.7.0",
     "awilix": "^7.0.3",
@@ -17,10 +24,5 @@
     "prettier-plugin-packagejson": "^2.4.3",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
-  },
-  "scripts": {
-    "build": "tsc",
-    "dev": "run-s build start",
-    "start": "node --inspect-brk dist/index.js"
   }
 }

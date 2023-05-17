@@ -1,7 +1,7 @@
 import 'reflect-metadata'
+import * as Awilix from 'awilix'
 import { ApolloServer } from 'apollo-server'
 import { ApolloServerPlugin } from 'apollo-server-plugin-base'
-import * as Awilix from 'awilix'
 import { buildSchema, ResolverData } from 'type-graphql'
 import { Logger } from './logger'
 import { RecipeResolver } from './recipe/recipe.resolver'
