@@ -5,8 +5,8 @@ dependencies:
     specifier: ^3.12.0
     version: 3.12.0(graphql@15.8.0)
   awilix:
-    specifier: ^7.0.3
-    version: 7.0.3
+    specifier: ^8.0.1
+    version: 8.0.1
   graphql:
     specifier: ^15.8.0
     version: 15.8.0
@@ -397,7 +397,7 @@ packages:
     dependencies:
       '@graphql-tools/utils': 8.9.0(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /@graphql-tools/merge@8.4.2(graphql@15.8.0):
@@ -407,7 +407,7 @@ packages:
     dependencies:
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /@graphql-tools/mock@8.7.20(graphql@15.8.0):
@@ -419,7 +419,7 @@ packages:
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       fast-json-stable-stringify: 2.1.0
       graphql: 15.8.0
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /@graphql-tools/schema@8.5.1(graphql@15.8.0):
@@ -430,7 +430,7 @@ packages:
       '@graphql-tools/merge': 8.3.1(graphql@15.8.0)
       '@graphql-tools/utils': 8.9.0(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.5.0
+      tslib: 2.5.1
       value-or-promise: 1.0.11
     dev: false
 
@@ -442,7 +442,7 @@ packages:
       '@graphql-tools/merge': 8.4.2(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.5.0
+      tslib: 2.5.1
       value-or-promise: 1.0.12
     dev: false
 
@@ -452,7 +452,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /@graphql-tools/utils@9.2.1(graphql@15.8.0):
@@ -462,7 +462,7 @@ packages:
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /@graphql-typed-document-node/core@3.2.0(graphql@15.8.0):
@@ -848,8 +848,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /awilix@7.0.3:
-    resolution: {integrity: sha512-4Nmjyh9qloDwXfDK0DBuWd8WyFApyknoaKbE3leQflGLgNfNsBHy2/VYrlyy/mzMobjJ3J8XtNpbjzG3KRkIFQ==}
+  /awilix@8.0.1:
+    resolution: {integrity: sha512-zDSp4R204scvQIDb2GMoWigzXemn0+3AKKIAt543T9v2h7lmoypvkmcx1W/Jet/nm27R1N1AsqrsYVviAR9KrA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       camel-case: 4.1.2
@@ -955,7 +955,7 @@ packages:
     resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /chalk@2.4.2:
@@ -1488,7 +1488,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /graphql@15.8.0:
@@ -1799,7 +1799,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /lru-cache@6.0.0:
@@ -1918,7 +1918,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /node-abort-controller@3.1.1:
@@ -2052,7 +2052,7 @@ packages:
     resolution: {integrity: sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==}
     dependencies:
       no-case: 3.0.4
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: false
 
   /path-browserify@1.0.1:
@@ -2502,6 +2502,10 @@ packages:
 
   /tslib@2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+
+  /tslib@2.5.1:
+    resolution: {integrity: sha512-KaI6gPil5m9vF7DKaoXxx1ia9fxS4qG5YveErRRVknPDXXriu5M8h48YRjB6h5ZUOKuAKlSJYb0GaDe8I39fRw==}
+    dev: false
 
   /tsx@3.12.7:
     resolution: {integrity: sha512-C2Ip+jPmqKd1GWVQDvz/Eyc6QJbGfE7NrR3fx5BpEHMZsEHoIxHL1j+lKdGobr8ovEyqeNkPLSKp6SCSOt7gmw==}
